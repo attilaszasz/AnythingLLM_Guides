@@ -8,7 +8,7 @@ Choose the appropriate version for your operating system:
 
 [Download AnythingLLM](https://anythingllm.com/download)
 
-> **Note:** On Windows, there is a warning when downloading that it's a potentially dangarous file and it's prevented from saving. Do it anyway :).
+> **Note:** On Windows, there is a warning when downloading that it's a potentially dangerous file and it's prevented from saving. Do it anyway :).
 
 ### Installation & configuration
 
