@@ -19,7 +19,7 @@ When finished, start the app. You will be greeted with a welcome screen. Click o
 
 ![AnythingLLM LLM Preference Screenshot](/media/AnythingLLM%20Start%20Install%20Built%20In.jpg)
 
-On the LLM Preference screen, choose your desired provider. Follow the specific instructions for the provider you choose:
+On the LLM Preference screen, choose your desired provider. Follow the specific instructions for the provider you chose:
 - [Groq](groq.md)
 - [AnythingLLM](builtin.md) (Buit in [Ollama](https://ollama.com/))
 
@@ -40,7 +40,9 @@ Click on the workspace you just created. This will take you to the workspace scr
 
 ![AnythingLLM Workspace Chat Screenshot](/media/AnythingLLM%20Chat.jpg)
 
-> If you chose the built in provider, at this point when attemting to chat, you will see an error response: `Ollama call failed with status code 400: model is required`.  
+> If you chose the built in provider, at this point when attemting to chat, you will see an error response:  
+> `Ollama call failed with status code 400: model is required`.  
+> 
 > Please [download a model](/builtin_models.md).
 
 Enjoy!
