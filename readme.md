@@ -21,7 +21,9 @@ When finished, start the app. You will be greeted with a welcome screen. Click o
 
 On the LLM Preference screen, choose your desired provider. Follow the specific instructions for the provider you chose:
 - [Groq](groq.md)
+- [Google Gemini](gemini.md)
 - [AnythingLLM](builtin.md) (Buit in [Ollama](https://ollama.com/))
+
 
 Read the Data Handling & Privacy statement and click on the right arrow again.
 
