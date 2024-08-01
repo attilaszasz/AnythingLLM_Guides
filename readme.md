@@ -1,6 +1,14 @@
-# Setting up AnythingLLM
+# AnythingLLM Setup Guide
 
-This is a short guide to set up [AnythingLLM](https://anythingllm.com) on your desktop.
+This guide is intended to help _non-technical_ users set up [AnythingLLM](https://anythingllm.com) on their computer.
+
+## What is AnythingLLM?
+
+AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches.
+
+## Why use AnythingLLM?
+
+AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches. You can use it as a zero-setup, private, and all-in-one AI application for local LLMs, RAG, and AI Agents without requiring any painful infrastructure setup. Additionally, it offers flexible customization options and support for various models and services, providing you with the flexibility to use the tools that suit your needs.
 
 ## Installing on desktop
 
@@ -49,3 +57,41 @@ Click on the workspace you just created. This will take you to the workspace scr
 > Please [download a model](/builtin_models.md).
 
 Enjoy!
+
+## Basic configuration
+
+### Improving the system prompt
+
+In simple terms, a "system prompt" in the context of a language model (LLM) is like giving the model some initial instructions or guidelines before it starts talking to or helping a user. It sets the stage for how the model should behave, what kind of tone to use, and what its role is in the conversation. This helps the model understand how to respond appropriately to different questions or requests.
+
+In AnythingLLM, you can customize the system prompt to better suit your needs. Here's how:
+
+Click on your workspace.  
+Click on the Settings icon (the gear icon) in the right side:
+
+![AnythingLLM Settings Screenshot](/media/AnythingLLM%20Workspace%20Settings.jpg)
+
+In the settings screen, click on the **Chat Settings** tab:
+
+![AnythingLLM Settings Screenshot](/media/AnythingLLM%20Workspace%20Chat%20Settings.jpg)
+
+Scroll down to the **Prompt** section. Here you can customize the system prompt.
+
+Here's an example prompt that it's a little bit better than the default one:
+
+```markdown 
+Act as a knowledgeable assistant, providing concise, truthful answers to user queries. 
+Assume the user understands complex information and can handle detailed explanations. 
+When uncertain, state 'I'm not sure' or 'I don't have enough information.' 
+Always maintain a neutral tone. 
+Whenever possible, provide references to support the information provided. 
+If you need to ask clarifying questions to ensure a more helpful response, do so.
+```
+
+### Setting the temperature
+
+This setting controls how "creative" your LLM responses will be.  
+The higher the number the more creative.  
+For some models this can lead to incoherent responses when set too high.
+
+Recommended: **0.5**
