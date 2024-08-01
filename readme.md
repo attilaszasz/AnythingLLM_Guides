@@ -15,7 +15,7 @@ Choose the appropriate version for your operating system:
 Run the installer.  
 Wait for a looooong time :)
 
-When finished, start the app. You will be greeted with a welcome screen. Click on **Get started** to proceed.
+When finished, start the app. You will be greeted with a welcome screen. Click on **Get started** to proceed to the next screen:
 
 ![AnythingLLM LLM Preference Screenshot](/media/AnythingLLM%20Start%20Install%20Built%20In.jpg)
 
