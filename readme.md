@@ -23,6 +23,7 @@ On the LLM Preference screen, choose your desired provider. Follow the specific 
 - [Groq](groq.md)
 - [Google Gemini](gemini.md)
 - [AnythingLLM](builtin.md) (Buit in [Ollama](https://ollama.com/))
+- [Ollama](ollama.md) (Self-hosted)
 
 
 Read the Data Handling & Privacy statement and click on the right arrow again.
