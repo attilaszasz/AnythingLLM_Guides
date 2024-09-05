@@ -17,14 +17,17 @@ Now that you have Ollama installed, you need to download a model to use with it.
 If you don't have a dedicated Nvidia or AMD video card, it's recommended that you download a smaller model to avoid performance issues. Gemma2 is a good choice for this purpose. Run the following command in Command Prompt or Powershell to download the Gemma2 model:
 
 ```shell
-   ollama run gemma2:2b-instruct-q8_0
+   ollama run gemma2:2b
 ```
 
 If you do have a dedicated Nvidia or AMD video card, you can download a larger model like llama3.1. Run the following command to download it:
 
 ```shell
-   ollama run llama3.1:8b-instruct-q8_0
+   ollama run llama3.1:8b
 ```
+
+You can learn more about using Ollama in this [excellent Youtube series](https://www.youtube.com/watch?v=e3j1a2PKw1k&list=PLvsHpqLkpw0fIT-WbjY-xBRxTftjwiTLB&index=3) by Matt Williams.
+
 ---
 
 ## Configure AnythingLLM to use Ollama
