@@ -11,16 +11,26 @@ AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI
 AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches. You can use it as a zero-setup, private, and all-in-one AI application for local LLMs, RAG, and AI Agents without requiring any painful infrastructure setup. Additionally, it offers flexible customization options and support for various models and services, providing you with the flexibility to use the tools that suit your needs.
 
 ## Installing on desktop
-
+### Installation & configuration
+#### Manual installation
 Choose the appropriate version for your operating system:
 
 [Download AnythingLLM](https://anythingllm.com/download)
 
 > **Note:** On Windows, there is a warning when downloading that it's a potentially dangerous file and it's prevented from saving. Do it anyway :).
 
-### Installation & configuration
+
 
 Run the installer.  
+Wait for a looooong time :)
+
+#### Through WinGet
+
+In command prompt (cmd.exe) or Terminal, run the following command:
+
+```shell
+winget install -e --id MintplexLabs.AnythingLLM
+```
 Wait for a looooong time :)
 
 When finished, start the app. You will be greeted with a welcome screen. Click on **Get started** to proceed to the next screen:
@@ -85,7 +95,7 @@ Assume the user understands complex information and can handle detailed explanat
 When uncertain, state 'I'm not sure' or 'I don't have enough information.' 
 Always maintain a neutral tone. 
 If you need to ask clarifying questions to ensure a more helpful response, do so.
-Suggest one or two helpful followup questions.
+If you think it would help the user, suggest one or two helpful followup questions.
 ```
 
 ### Setting the temperature

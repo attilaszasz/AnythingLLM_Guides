@@ -14,13 +14,18 @@ If you are using Windows, you can use the built in WinGet package manager to ins
 
 Now that you have Ollama installed, you need to download a model to use with it. You can find a list of available models on the [Ollama Models page](https://ollama.com/library).
 
-If you don't have a dedicated Nvidia or AMD video card, it's recommended that you download a smaller model to avoid performance issues. Gemma2 is a good choice for this purpose. Run the following command in Command Prompt or Powershell to download the Gemma2 model:
+If you don't have a dedicated Nvidia or AMD video card, it's recommended that you download a smaller model to avoid performance issues. Gemma2 or Ollama 3.2:3b are good choices for this purpose. Run the following command in Command Prompt or Powershell to download the Gemma2 model:
 
 ```shell
    ollama run gemma2:2b
 ```
+Run the following command in Command Prompt or Powershell to download the Ollama 3.2 2B model:
 
-If you do have a dedicated Nvidia or AMD video card, you can download a larger model like llama3.1. Run the following command to download it:
+```shell
+   ollama run llama3.2
+```
+
+If you do have a dedicated Nvidia or AMD video card, you can download a larger model like llama3.1 8B. Run the following command to download it:
 
 ```shell
    ollama run llama3.1:8b
